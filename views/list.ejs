@@ -1,0 +1,14 @@
+<%- include("header") -%>
+    <h1 class = "brand"><%=pageTitle%></h1>
+    <ul class = "listing">
+      <% for(var i = 0; i < newItem.length; i++){ %>
+        <li>
+          <input type="checkbox" name="" value=""><p><%= newItem[i] %></p>
+        </li>
+      <% } %>
+    <form action="/" method="post">
+      <input type="text" name="nextItem" placeholder="Add Item" autocomplete="off">
+      <button type="submit" name="button" value = <%= pageTitle %> >+</button>
+    </form>
+    </ul>
+<%- include("footer") -%>

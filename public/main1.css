@@ -1,0 +1,53 @@
+html,body {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #0278ae 50%, #E4E9FD 50%);
+  min-height: 1000px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  border-bottom-style: solid;
+  border-color: darkgrey;
+}
+
+input[type="checkbox"] {
+  margin-right: 35px;
+}
+
+input[type = "text"] {
+  border: none;
+  text-align: center;
+  background-color: #a2d5f2;
+}
+
+button[type = "submit"]{
+  background-color: #51adcf;
+}
+
+.brand{
+  border-radius: 8px;
+  background-color: #a5ecd7;
+  display: table;
+  margin: 40px auto 40px;
+}
+
+.listing{
+  border-radius: 4px;
+  background-color: #a2d5f2;
+  display: table;
+  margin: auto;
+  min-width: 480px;
+  font-size: 40px;
+}
+
+p{
+  display: inline;
+}
+
+input:checked + p{
+  text-decoration: line-through;
+  text-decoration-color: #81b214;
+}

@@ -1,0 +1,56 @@
+html,body {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #32e0c4 50%, #E4E9FD 50%);
+  min-height: 1000px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  border-bottom-style: solid;
+  border-color: darkgrey;
+}
+li:last-child{
+  border-bottom-style: none;
+  border-color: red;
+}
+input[type="checkbox"] {
+  margin-right: 35px;
+}
+
+input[type = "text"] {
+  border: none;
+  text-align: center;
+  background-color: greenyellow;
+}
+
+button[type = "submit"]{
+  background-color: #4CAF50;
+}
+
+.brand{
+  border-radius: 8px;
+  background-color: #32e0c4;
+  display: table;
+  margin: 40px auto 40px;
+}
+
+.listing{
+  border-radius: 4px;
+  background-color: #b7ff09;
+  display: table;
+  margin: auto;
+  min-width: 480px;
+  font-size: 40px;
+}
+
+p{
+  display: inline;
+}
+
+input:checked + p{
+  text-decoration: line-through;
+  text-decoration-color: #81b214;
+}
